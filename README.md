@@ -1,4 +1,5 @@
 Project Overview
+
 This project showcases a fun and straightforward web application that allows you to draw a single-digit number, which is then recognized using simple machine learning techniques.
 
 If you're eager to dive right into the code, here's what you'll find:
@@ -8,6 +9,7 @@ HTML file containing the main application.
 Let's get started! Below are the ingredients and steps required to build this demo.
 
 Ingredients and Steps:
+
 1. Training Data
 For any Machine Learning model, high-quality data is essential. In this project, we're utilizing the MNIST dataset, which consists of handwritten digit images.
 
@@ -36,3 +38,6 @@ The web application utilizes an HTML5 Canvas component, allowing users to draw t
 
 7. Hooking Everything Up
 The TensorFlow.js library is loaded onto the webpage, allowing us to load the trained model and make predictions based on user-drawn digits. The model is fed the scaled-down drawing data, and predictions are displayed on the webpage.
+
+
+Check it here: https://breno-godoi.github.io/number-recognition.github.io/
